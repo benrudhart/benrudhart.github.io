@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="wqh-jS-x0X">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="aTE-Do-Dkt">
+            <objects>
+                <navigationController id="wqh-jS-x0X" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="OY4-Z8-4AM">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="fKr-Z4-MmR"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KkV-kw-ZZ5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-374" y="384"/>
+        </scene>
+        <!--A View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController title="A View Controller" id="BYZ-38-t0r" customClass="ViewController" customModule="PopoveriPhone" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Any ViewController" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ahR-Ba-AaY">
+                                <rect key="frame" x="227" y="289.5" width="146" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="ahR-Ba-AaY" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ExT-kF-tiK"/>
+                            <constraint firstItem="ahR-Ba-AaY" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="cP2-1C-TwB"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="nTx-nD-QbV">
+                        <barButtonItem key="rightBarButtonItem" title="Show Popover" id="RR1-LF-yFy">
+                            <connections>
+                                <segue destination="ZY8-NB-9dp" kind="popoverPresentation" popoverAnchorBarButtonItem="RR1-LF-yFy" id="GMa-vv-5Pi">
+                                    <popoverArrowDirection key="popoverArrowDirection" up="YES"/>
+                                </segue>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+        <!--Content Controller-->
+        <scene sceneID="3NO-cy-eFg">
+            <objects>
+                <viewController id="ZY8-NB-9dp" customClass="ContentController" customModule="PopoveriPhone" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="VTo-QE-vS0"/>
+                        <viewControllerLayoutGuide type="bottom" id="9c4-pk-id4"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="7hE-6p-r4d">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A Popover" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NDj-lu-Dhh">
+                                <rect key="frame" x="261" y="289.5" width="78.5" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="NDj-lu-Dhh" firstAttribute="centerY" secondItem="7hE-6p-r4d" secondAttribute="centerY" id="5a3-vw-h6v"/>
+                            <constraint firstItem="NDj-lu-Dhh" firstAttribute="centerX" secondItem="7hE-6p-r4d" secondAttribute="centerX" id="Jai-lB-QN9"/>
+                        </constraints>
+                    </view>
+                    <value key="contentSizeForViewInPopover" type="size" width="200" height="200"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UR8-eO-Ruy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="971" y="384"/>
+        </scene>
+    </scenes>
+</document>
