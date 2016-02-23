@@ -11,12 +11,12 @@
 
 .social-icons a.fa {
   cursor: pointer;
-  opacity: 0.8;
   padding: 0.2em;
+  color: $blue;
 }
 
 .social-icons a.fa:hover {
-  opacity: 1;
+  color: $green;
 }
 
 .social-icons iframe[title=Flattr] {
