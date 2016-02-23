@@ -1,20 +1,20 @@
 ---
 layout: page
-title: About Pixyll
+title: About
 permalink: /about/
-tags: about
 ---
 
-This Jekyll theme was crafted with <3 by [John Otander](http://johnotander.com)
-([@4lpine](https://twitter.com/4lpine)).
+#### Me
 
-Checkout the [Github repository](https://github.com/johnotander/pixyll) to download it,
-request a feature, report a bug, or contribute. It's free, and open source
-([MIT](http://opensource.org/licenses/MIT)).
+My name is Ben Rudhart.
 
-Thanks to the following:
+I'm a software engineer working from Munich (Germany). I'm passionate about iOS development in Swift and user interfaces that are both intuitive and appealing. I enjoy teaching people how they can write awesome code. 
 
-* [BASSCSS](http://basscss.com)
-* [Jekyll](http://jekyllrb.com)
-* [Refills](http://refills.bourbon.io/)
-* [Type Scale](http://type-scale.com/)
+
+#### This Blog
+
+AppGrade is a blog about Apple’s new programming language Swift and iOS development.
+
+It covers tips, tricks and beautiful patterns to leverage the features of Swift and iOS.
+
+Thanks to [John Otander](http://johnotander.com) for creating and maintaining this Jekyll theme.
