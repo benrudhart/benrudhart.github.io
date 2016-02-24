@@ -16,19 +16,19 @@ In your storyboard you create a segue to the controller you want to display as a
 
 Before the presentation of the viewController you have to do some setup (e.g. in `prepareForSegue(segue: sender:)`):
 
-```swift
+~~~swift
 segue.destinationViewController?.popoverPresentationController.delegate = self
-```
+~~~
 
 In order to conform be the delegate `self` has to conform to  `UIPopoverPresentationControllerDelegate`:
 
-```swift
+~~~swift
 extension YourController: UIPopoverPresentationControllerDelegate {
     func adaptivePresentationStyleForPresentationController(controller: UIPresentationController) -> UIModalPresentationStyle {
         return .None
     }
 }
-```
+~~~
 
 **Note:** you have to return `.None` and not `.Popover` here!
 
