@@ -23,6 +23,13 @@ hr.style-appgrade {
   background-image: -o-linear-gradient(left, $blue, $blue, $green);
 }
 
+hr.style-share {
+  margin-left: 15vw;
+  margin-right: 15vw;
+  margin-top: 3em;
+  margin-bottom: 1.5em;
+}
+
 a.svg {
 	position: relative;
 	display: inline-block; 

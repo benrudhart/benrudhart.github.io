@@ -3,6 +3,11 @@ a {
   text-shadow: white 1px 0px 0px, white -1px 0px 0px;
 }
 
+a.fa {
+  padding: 0.3em;
+  color: $blue;
+}
+
 a:hover,
 a:focus,
 a:active {
