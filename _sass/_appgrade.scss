@@ -48,6 +48,10 @@ a.svg:after {
   left:0;
 }
 
+body {
+  color: $blue;
+}
+
 /* Code highlighting according to Xcode default color scheme*/
 
 $code-name: #000000;    // Xcode: Plain Text
