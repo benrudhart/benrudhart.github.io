@@ -1,16 +1,16 @@
 <div class="social-icons">
   <div class="social-icons-right">
-    <a class="fa fa-info-circle grow" href="{{ site.baseurl }}/about/" title="About me"></a>
-    <a class="fa fa-rss grow" href="{{ "/feed.xml" | prepend: site.baseurl }}"></a>
+    <a class="fa fa-info" href="{{ site.baseurl }}/about/" title="About me"></a>
+    <a class="fa fa-rss" href="{{ "/feed.xml" | prepend: site.baseurl }}"></a>
     {% if site.twitter_username %}
-      <a class="fa fa-twitter  grow" href="https://twitter.com/{{ site.twitter_username }}" target="_blank"></a>
+      <a class="fa fa-twitter" href="https://twitter.com/{{ site.twitter_username }}" target="_blank"></a>
     {% endif %}
     {% if site.github_username %}
     
-      <a class="fa fa-github grow" href="https://github.com/{{ site.github_username }}" target="_blank"></a>
+      <a class="fa fa-github" href="https://github.com/{{ site.github_username }}" target="_blank"></a>
     {% endif %}
     {% if site.linkedin_username %}
-      <a class="fa fa-linkedin  grow" href="https://www.linkedin.com/in/{{ site.linkedin_username }}" target="_blank"></a>
+      <a class="fa fa-linkedin" href="https://www.linkedin.com/in/{{ site.linkedin_username }}" target="_blank"></a>
     {% endif %}
     {% if site.bitbucket_username %}
       <a class="fa fa-bitbucket" href="https://bitbucket.org/{{ site.bitbucket_username }}"></a>
@@ -28,7 +28,7 @@
       <a class="fa fa-google-plus" href="https://plus.google.com/{{ site.google_plus_id }}/posts"></a>
     {% endif %}
     {% if site.email %}
-      <a class="fa fa-envelope grow" href="mailto:{{ site.email }}"></a>
+      <a class="fa fa-envelope" href="mailto:{{ site.email }}"></a>
     {% endif %}
     {% if site.angellist_username %}
       <a class="fa fa-angellist" href="https://angel.co/{{ site.angellist_username }}"></a>

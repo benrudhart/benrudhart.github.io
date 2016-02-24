@@ -1,17 +1,3 @@
-
-.grow { 
-		-o-transition: color .2s ease-out, background .2s ease-in;
- 	 	-ms-transition: color .2s ease-out, background .2s ease-in;
-	  	-moz-transition: color .2s ease-out, background .2s ease-in;
-	  	-webkit-transition: color .2s ease-out, background .2s ease-in;
-	  	transition: color .2s ease-out, background .2s ease-in;
-
-		&:hover {
-			-webkit-transform: scale(1.4);
-			transform: scale(1.4); 
-		}
-}
-
 hr.style-appgrade {
   border: 0;
   height: 1px;
@@ -28,6 +14,20 @@ hr.style-share {
   margin-right: 15vw;
   margin-top: 3em;
   margin-bottom: 1.5em;
+}
+
+// animated change of scale and color of fa links
+a.fa {
+  $duration: 0.2s;
+  $scaleFactor: 1.4;
+
+  -webkit-transition: all $duration;
+  transition: all $duration;
+
+  &:hover {
+    -webkit-transform: scale($scaleFactor);
+    transform: scale($scaleFactor);
+  }
 }
 
 a.svg {
