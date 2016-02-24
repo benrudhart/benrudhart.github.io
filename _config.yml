@@ -2,7 +2,7 @@
 title:       AppGrade
 email: ben@app-grade.de
 author: Ben Rudhart
-description: "Ideas on iOS software engineering."
+description: "Swift & iOS gems"
 baseurl:     ""
 url:         "http://app-grade.de"
 date_format: "%b %-d, %Y"
