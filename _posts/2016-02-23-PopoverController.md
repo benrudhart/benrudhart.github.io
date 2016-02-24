@@ -15,11 +15,14 @@ Setting up a ViewController to be presented as a popover is pretty simple.
 In your storyboard you create a segue to the controller you want to display as a popover. This time you chose `Action Segue` > `Present As Popover`
 
 Before the presentation of the viewController you have to do some setup (e.g. in `prepareForSegue(segue: sender:)`):
-`segue.destinationViewController?.popoverPresentationController.delegate = self`
+
+```swift
+segue.destinationViewController?.popoverPresentationController.delegate = self
+```
 
 In order to conform be the delegate `self` has to conform to  `UIPopoverPresentationControllerDelegate`:
 
-```
+```swift
 extension YourController: UIPopoverPresentationControllerDelegate {
     func adaptivePresentationStyleForPresentationController(controller: UIPresentationController) -> UIModalPresentationStyle {
         return .None
