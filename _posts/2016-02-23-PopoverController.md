@@ -34,6 +34,6 @@ extension YourController: UIPopoverPresentationControllerDelegate {
 
 Of course UIPopoverPresentationController is also available for iPads.
 
-For a quick start you might want to look at this [example project](https://github.com/AppGrade/appgrade.github.io/tree/master/assets/examples/2016_02_23%20PopoveriPhone).
+For a quick start you might want to look at this [example project](https://github.com/benrudhart/benrudhart.github.io/tree/master/assets/examples/2016_02_23%20PopoveriPhone).
 
 

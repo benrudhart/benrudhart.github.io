@@ -1,10 +1,10 @@
 # Site settings
-title:       AppGrade
-email: ben@app-grade.de
+title: benrudhart
+email: hi@benrudhart.com
 author: Ben Rudhart
 description: "Swift & iOS gems"
 baseurl:     ""
-url:         "http://app-grade.de"
+url:         "http://benrudhart.com"
 date_format: "%b %-d, %Y"
 
 # Google services
@@ -111,6 +111,6 @@ gems:
 exclude: [vendor]
 
 githubLinks:
-  repo: 'https://github.com/appgrade/appgrade.github.io'
-  issue: 'https://github.com/appgrade/appgrade.github.io/issues/new'
-  pr: 'https://github.com/appgrade/appgrade.github.io/compare'
+  repo: 'https://github.com/benrudhart/benrudhart.github.io'
+  issue: 'https://github.com/benrudhart/benrudhart.github.io/issues/new'
+  pr: 'https://github.com/benrudhart/benrudhart.github.io/compare'
