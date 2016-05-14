@@ -1,5 +1,4 @@
-# [appgrade.github.io](www.app-grade.de)
-![AppGrade](https://raw.githubusercontent.com/appgrade/appgrade.github.io/master/assets/images/logo.png)
+# [benrudhart.github.io](www.benrudhart.com)
 
 # About
 
