@@ -1,4 +1,4 @@
-# [benrudhart.github.io](www.benrudhart.com)
+# [benrudhart.github.io](http://www.benrudhart.com)
 
 # About
 
