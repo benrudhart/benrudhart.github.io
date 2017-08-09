@@ -1,6 +1,5 @@
 source 'https://rubygems.org'
 
-# A simple Ruby Gem to bootstrap dependencies for setting up and
-# maintaining a local Jekyll environment in sync with GitHub Pages
-# https://github.com/github/pages-gem
-gem 'github-pages'
+# https://help.github.com/articles/about-github-pages-and-jekyll/
+# https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/
+gem 'github-pages', group: :jekyll_plugins
